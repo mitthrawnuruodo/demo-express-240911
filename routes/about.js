@@ -9,7 +9,8 @@ router.get('/', (req, res) => {
             <a href="/users">Go to Users</a>
         </nav>
         <h1>About Us</h1>
-        <p>This is the about page of our Express app.</p>
-        <br>
-`); });
+        <p>This is the about page of our little Express app.</p>
+    `); 
+});
+
 module.exports = router;

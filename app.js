@@ -14,6 +14,7 @@ app.use('/', homeRoute); // Homepage route
 app.use('/about', aboutRoute); // About page route
 app.use('/contact', contactRoute); // Contact page route
 app.use('/users', usersRoute); // Users page route (fetches data from API)
+app.use((req, res) => { res.status(404).send(`<h1>404! Page not found</h1><p><a href="/">Go to Home page</a></p>`); });
 // Start the server
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
