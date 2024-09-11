@@ -1,0 +1,16 @@
+{
+  "name": "demo-express-240911",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.20.0",
+    "node-fetch": "^3.3.2"
+  }
+}
